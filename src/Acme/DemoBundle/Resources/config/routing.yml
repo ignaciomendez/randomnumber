@@ -1,0 +1,8 @@
+acme_demo_homepage:
+    path:     /random/{limit}
+    defaults: { _controller: AcmeDemoBundle:Random:index }
+
+
+acme_main_page:
+  path: /
+  defaults: { _controller: AcmeDemoBundle:Main:index }
